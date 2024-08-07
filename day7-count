@@ -1,0 +1,3 @@
+a=int(input("Enter the value: "))
+square="The square is {}"
+print(square.format(a**2))
