@@ -1,0 +1,5 @@
+for i in range(1,222):
+        i=i+1
+        if (i>=223):
+            break
+        print("Numbers from 1 to 222 are ",i)
