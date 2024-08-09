@@ -1,0 +1,16 @@
+n=int(input("Enter a number: "))
+for i in range(1,n):
+    if i==1:
+        print("One")
+    elif i==2:
+        print("Two")
+    elif i==3:
+        print("Three")
+    elif i==4:
+        print("Four")
+    elif i==5:
+        print("Five")
+    else:
+        print("not between first five numbers")
+    
+         
