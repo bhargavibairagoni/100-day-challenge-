@@ -1,0 +1,8 @@
+str=input("Enter a string: ")
+#first method
+print(str+" "+str)
+#second method
+print(2*str)
+print(str)
+#third method
+print(str)
