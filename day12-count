@@ -1,0 +1,5 @@
+n=int(input())
+if n==0:
+    print("number equal to 0")
+else:
+    print("not equal to 0")
