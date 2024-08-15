@@ -1,0 +1,7 @@
+a=int(input("Enter any number:"))
+if a==100:
+    print(a,"is century ")
+elif a==50:
+    print(a,"is half-century")
+else:
+    print("Not a century or half-century")
