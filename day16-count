@@ -1,0 +1,6 @@
+        
+n_list = list(map(int, input().split()))
+if 100 in n_list:
+    print("Yes, 100 is in the list")
+else:
+    print("No, 100 not in the list")
