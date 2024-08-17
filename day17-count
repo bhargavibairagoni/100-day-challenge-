@@ -1,0 +1,10 @@
+sub1=int(input("enter marks in sub1: "))
+sub2=int(input("enter marks in sub2: "))
+if sub1>=35 and sub2>=35:
+    print("passed in both subjects")
+elif sub1>=35 and sub2<=34:
+    print("sub1 is passed sub2 is failed")
+elif sub1<=34 and sub2>=35:
+    print("sub1 is failed and sub2 is passed")
+else:
+    print("Both subjects are failed")
