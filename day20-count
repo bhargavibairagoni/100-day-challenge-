@@ -1,0 +1,19 @@
+speed = input("Enter the network speed (e.g., '50kbps', '3mbps','1gbps'): ")
+if speed.endswith("kbps"):
+    speed_value = float(speed.replace("kbps", "").strip()) / 1000  
+elif speed.endswith("mbps"):
+    speed_value = float(speed.replace("mbps", "").strip())
+elif speed.endswith("gbps"):
+    speed_value=float(speed.replace("gbps","").strip())*1000
+else:
+    print("Invalid unit. Please use 'kbps','gpbs', or 'mbps'.")
+    exit()
+if speed_value <= 0.1:  
+    print("The network is 2G")
+elif 2 <= speed_value <= 14:  
+    print("The network is 3G")
+elif 30 <= speed_value <= 100:  
+    print("The network is 4G")
+
+else:
+    print("network is 5g or higher ")
