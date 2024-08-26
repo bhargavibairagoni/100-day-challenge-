@@ -1,0 +1,3 @@
+n=int(input("enter any number: "))
+div=n%5
+print("Reminder is: ",div)
