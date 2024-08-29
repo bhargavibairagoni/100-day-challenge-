@@ -1,0 +1,8 @@
+def passfail(g,pg):
+    if g>=pg:
+        print("pass")
+    else:
+        print("fail")
+g=int(input("Enter the marks of student: "))
+pg=int(input("Enter the pass marks of sub: "))
+ob=passfail(g,pg)
