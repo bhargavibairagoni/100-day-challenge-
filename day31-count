@@ -1,0 +1,3 @@
+n=int(input("Enter any number: "))
+cube=n**3
+print("cube of a number is : ", cube)
