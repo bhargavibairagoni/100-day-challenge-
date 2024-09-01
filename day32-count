@@ -1,0 +1,5 @@
+def next_num(n):
+    return n+1
+num=int(input("Enter any number: "))
+a=next_num(num)
+print("Next number of num is : ", a)
