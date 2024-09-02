@@ -1,0 +1,4 @@
+def prev_num(n):
+    return n-1
+n=int(input("Enter the number: "))
+print("previous number is: ",prev_num(n))
