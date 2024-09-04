@@ -1,0 +1,5 @@
+def subtract(a,b):
+    return abs(a-b)
+a=int(input("Enter first number: "))
+b=int(input("Enter second number: "))
+print("The subtraction of two numbers is : ", subtract(a,b))
