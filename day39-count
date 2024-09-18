@@ -1,0 +1,3 @@
+def skillrack():
+    return "SkillRack"
+print(skillrack())
