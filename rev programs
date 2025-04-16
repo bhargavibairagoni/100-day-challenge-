@@ -1,0 +1,19 @@
+1.//reverse of a number
+def rev(n):
+  rev=0
+  while n!=0:
+    digit=n%10
+    rev=rev*10+digit
+    n//=10
+  return rev
+n=123
+print(rev(n))
+
+2.// rev of a string
+def str(S):
+    str=""
+    for i in S:
+        str=i+str
+    return str
+i="hello"
+print(str(i))
